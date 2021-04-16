@@ -677,7 +677,7 @@ a {
 }
 
 p {
-    font-size: 11px;
+    font-size: 1.5rem;
 }
 
 .tight-width-whitespace {
@@ -701,7 +701,7 @@ p {
 
 .social {
     max-width: 400px;
-    margin: auto auto auto auto;
+    margin: auto;
 }
 
 h2 {
@@ -775,7 +775,7 @@ h4 {
 }
 
 .tc-white {
-    color: #F3976C!important;
+    color:white!important;
 }
 
 .btn-atomic-tangerine {
@@ -900,7 +900,7 @@ h4 {
         padding-right: 10px!important;
     }
     .b-parallax {
-        background-attachment: scroll;
+       height:300px;
     }
     .navbar .nav {
         padding-top: 0;
