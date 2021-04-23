@@ -48,12 +48,15 @@ a:hover {
 }
 
 .bloc-lg {
-    padding: 100px 50px;
+    padding: 20px;
 }
 
-.bloc-md {
-    padding: 50px;
+#bloc-1-hero img{
+    width:100%;
+    height:300px;
 }
+
+
 
 .bloc-sm {
     padding: 20px 50px;
@@ -103,7 +106,7 @@ a:hover {
 }
 
 .d-bloc {
-    color: rgba(255, 255, 255, .7);
+    color:  rgb(216, 77, 53);
 }
 
 .d-bloc button:hover {
@@ -417,7 +420,7 @@ nav .caret {
 }
 
 .bloc-md > div:nth-child(2) > div:nth-child(1) > p:nth-child(1) {
-    font-size: 3rem;
+    font-size: 2rem;
     font-weight: 900;
    }
    
@@ -774,9 +777,7 @@ h4 {
     background-color: #FFFFFF;
 }
 
-.bgc-dark-slate-blue {
-    background-color: #364577;
-}
+
 
 .bgc-atomic-tangerine {
     background-color: rgb(216, 77, 53);
@@ -823,16 +824,15 @@ h4 {
 .map-contact {
     display: flex;
     flex-direction:column;
-   }
+}
    
 
-.bg-banniere {
-    background-image: url("img/la-chouette-agence-banniere.jpg");
-}
+
 
 h1.text-center{
     font-size:3rem;
     color:orangered;
+    padding:20px;
 }
 
 
@@ -863,6 +863,7 @@ h1.text-center{
 @media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (orientation: landscape) {
     .b-parallax {
         background-attachment: scroll;
+
     }
 }
 
@@ -877,7 +878,8 @@ h1.text-center{
         width: 100%;
     }
     .b-parallax {
-        background-attachment: scroll;
+        height:200px;
+        object-fit:cover;
     }
     .page-container,
     #hero-bloc {
@@ -887,6 +889,7 @@ h1.text-center{
     .bloc {
         padding-left: constant(safe-area-inset-left);
         padding-right: constant(safe-area-inset-right);
+        padding:30px;
     }
     .bloc-group,
     .bloc-group .bloc {
@@ -905,7 +908,10 @@ h1.text-center{
     
 }
 @media(max-width:600px){
-.adresse{
+.b-parallax{
+    height:800px;
+}
+    .adresse{
     margin:auto;
 }
 #wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3 {
@@ -947,9 +953,7 @@ h1.text-center{
         padding-left: 10px!important;
         padding-right: 10px!important;
     }
-    .b-parallax {
-       height:300px;
-    }
+    
     .navbar .nav {
         padding-top: 0;
         border-top: 1px solid rgba(0, 0, 0, .2);
@@ -1015,10 +1019,7 @@ h1.text-center{
         float: left;
         margin-left: 10px;
     }
-    .bloc {
-        padding-left: 0;
-        padding-right: 0;
-    }
+    
     .bloc-xxl,
     .bloc-xl,
     .bloc-lg {
