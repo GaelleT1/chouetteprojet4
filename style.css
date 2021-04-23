@@ -115,7 +115,7 @@ a:hover {
 .d-bloc .icon-rounded,
 .d-bloc .icon-semi-rounded-a,
 .d-bloc .icon-semi-rounded-b {
-    border-color: rgba(255, 255, 255, .9);
+    border-color:grey;
 }
 
 .d-bloc .divider-h span {
@@ -830,9 +830,12 @@ h4 {
     background-image: url("img/la-chouette-agence-banniere.jpg");
 }
 
-.bg-presentation {
-    
+h1.text-center{
+    font-size:3rem;
+    color:orangered;
 }
+
+
 
 @media (max-width: 1024px) {
     .bloc {
@@ -901,21 +904,31 @@ h4 {
     width: 450px;
     
 }
-@media(max-width 600px){
-    .adresse{
+@media(max-width:600px){
+.adresse{
     margin:auto;
-    }
-    #wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3 {
-        width: 450px;
-        max-width: 100%;
-        position: relative;
-        clear: both;
-        max-height: 300px;
-        text-align: left;
-        margin: auto;
-       }
-       
-    }
+}
+#wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3 {
+    width: 450px;
+    max-width: 100%;
+    position: relative;
+    clear: both;
+    max-height: 300px;
+    text-align: left;
+    margin: auto;
+}
+.social{
+    display:flex;
+    justify-content:space-between;
+}
+.bloc-md > div:nth-child(2) > div:nth-child(1) > p:nth-child(1) {
+    font-size: 2rem;
+    font-weight: 900;
+}
+.portfolio-thumb {
+    height: 200px;
+    margin: auto;
+}
 }
    
 @media (max-width: 767px) {
