@@ -41,6 +41,10 @@ a:hover {
     background-size: cover;
     position: relative;
 }
+.pics{
+    display:flex;
+    flex-wrap:wrap;
+}
 
 .bloc .container {
     padding-left: 0;
@@ -453,8 +457,8 @@ nav .caret {
 }
 
 .mg-md {
-    margin-top: 10px;
-    margin-bottom: 20px;
+    margin-top: 30px;
+    margin-bottom: 30px;
 }
 
 .mg-lg {
@@ -700,8 +704,14 @@ p {
 }
 
 .tight-width-whitespace {
-    max-width: 600px;
-    margin: auto auto auto auto;
+    max-width:600px;
+    margin: auto ;
+    color:white;
+}
+
+label{
+    color:black;
+    font-size:2rem;
 }
 
 .h1 {
@@ -867,6 +877,50 @@ h1.text-center{
     font-size:1.6rem;
 }
 
+#bloc-0 > div:nth-child(1) {
+    background: white;
+    padding: 50px;
+}
+
+#bloc-6 > div:nth-child(1) > div:nth-child(1) > div:nth-child(1) {
+    background: black;
+    padding: 50px;
+}
+
+p.text-center:nth-child(2) {
+    font-size: 2rem;
+}
+
+.testimony {
+    display: flex;
+    justify-content: center;
+    background: whitesmoke;
+    text-align: center;
+    flex-wrap:wrap;
+    padding: 0 10px;
+    
+}
+
+.texte_testimony {
+    max-width: 600px;
+    box-shadow: gray 3px 3px 4px 4px;
+    border-radius: 20px;
+    padding: 20px 10px;
+    margin: 5px;
+}
+
+.testimony p{
+    font-size: 1.8rem;
+    color: black;
+        
+}
+
+h4.mg-md {
+    font-size: 3rem;
+   }
+   
+           
+
 @media (max-width: 1024px) {
     .bloc {
         padding-left: 20px;
@@ -934,9 +988,48 @@ h1.text-center{
     }
 }
 .adresse {
-    width: 450px;
+    
+    background: whitesmoke;
+    padding: 10px;
+    text-align: center;
+    font-size:2rem;
     
 }
+
+.adresse > p:nth-child(2) {
+    color: black;
+    font-size: 2rem;
+   }
+
+   .adresse > p:nth-child(1) {
+    color: black;
+    font-size:3rem;
+   }
+   
+   #bloc-7 > div:nth-child(1) > div:nth-child(1) {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+   }
+   
+   #mapDiv > div:nth-child(1) {
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    background-color: rgb(229, 227, 223);
+    border: solid black 2px;
+    padding:3px;
+   }
+   
+   #mapDiv{
+   
+    border: 2px solid grey;
+      
+   }
+
+
 @media(max-width:600px){
 .b-parallax{
     height:800px;
