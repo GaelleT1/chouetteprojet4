@@ -33,12 +33,6 @@ a:hover {
 .bloc {
     width: 100%;
     clear: both;
-    background: 50% 50% no-repeat;
-    padding:0 10px;
-    -webkit-background-size: cover;
-    -moz-background-size: cover;
-    -o-background-size: cover;
-    background-size: cover;
     position: relative;
 }
 .pics{
@@ -87,9 +81,7 @@ a:hover {
     background: repeat;
 }
 
-.bg-t-edge {
-    background: top no-repeat;
-}
+
 
 .bloc-bg-texture::before {
     content: "";
@@ -922,10 +914,7 @@ h4.mg-md {
            
 
 @media (max-width: 1024px) {
-    .bloc {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
+    
     .bloc.full-width-bloc,
     .bloc-tile-2.full-width-bloc .container,
     .bloc-tile-3.full-width-bloc .container,
@@ -970,11 +959,7 @@ h4.mg-md {
         overflow-x: hidden;
         position: relative;
     }
-    .bloc {
-        padding-left: constant(safe-area-inset-left);
-        padding-right: constant(safe-area-inset-right);
-        padding:30px;
-    }
+    
     .bloc-group,
     .bloc-group .bloc {
         display: block;
@@ -1031,12 +1016,12 @@ h4.mg-md {
 
 
 @media(max-width:600px){
-.b-parallax{
-    height:800px;
-}
+
     .adresse{
     margin:auto;
+    }
 }
+
 #wrapper-9cd199b9cc5410cd3b1ad21cab2e54d3 {
     width: 450px;
     max-width: 100%;

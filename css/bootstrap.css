@@ -7856,7 +7856,7 @@ button.close {
     display: none !important
 }
 
-@media (max-width:767px) {
+@media (:767px) {
     .visible-xs {
         display: block !important
     }
