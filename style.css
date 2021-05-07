@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    padding: 0;
+    padding: 0 15px;
     background:black;
     overflow-x: hidden;
     -webkit-font-smoothing: antialiased;
@@ -497,7 +497,13 @@ button {
 }
 
 
-    
+.mapouter{
+    position:relative;text-align:right;height:500px;width:400px;
+} 
+
+.gmap_canvas {
+    overflow:hidden;background:none!important;height:500px;width:400px;
+}
 
 
 .panel-sq,
@@ -786,6 +792,8 @@ p.white:nth-child(1) {
 .portfolio-row {
     margin-bottom: 44px;
     margin-top: 50px;
+    display:flex;
+    
 }
 
 .avatar {
@@ -1163,6 +1171,7 @@ h4.mg-md {
     }
     form {
         padding: 5px;
+        max-width:400px;
     }
     .close-lightbox {
         display: inline-block;

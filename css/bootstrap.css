@@ -1394,6 +1394,7 @@ body {
     line-height: 1.42857143;
     color:black;
     background-color: #fff
+    
 }
 
 button,
@@ -2317,7 +2318,7 @@ pre code {
         width: 58.33333333%
     }
     .col-sm-6 {
-        width: 50%
+        max-width: 400px
     }
     .col-sm-5 {
         width: 41.66666667%
