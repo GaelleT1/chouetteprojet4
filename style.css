@@ -330,7 +330,8 @@ p.mg-md {
 }
 
 .navbar-brand img {
-    max-height: 200px;
+   
+    max-width:200px;
     margin: 0 5px 0 0;
     display: inline;
 }
@@ -583,6 +584,8 @@ a[data-lightbox] {
     display: block;
     text-align: center;
 }
+
+
 
 a[data-lightbox]:hover::before {
     content: "+";
@@ -1166,11 +1169,7 @@ h4.mg-md {
         margin-left: 10px;
     }
     
-    .bloc-xxl,
-    .bloc-xl,
-    .bloc-lg {
-        padding: 40px 0;
-    }
+    
     .bloc-sm,
     .bloc-md {
         padding-left: 0;
