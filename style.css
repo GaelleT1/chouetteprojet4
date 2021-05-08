@@ -131,6 +131,11 @@ a:hover {
     color:  #e53d00;
 }
 
+div.portfolio-row:nth-child(1) > div:nth-child(1){
+    max-width: 50%;
+}
+   
+
 .d-bloc button:hover {
     color: rgba(255, 255, 255, .9);
 }
